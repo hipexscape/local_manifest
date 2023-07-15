@@ -6,12 +6,15 @@
         fetch="https://github.com" />
 <remote name="dev"
         fetch="https://github.com/mt6768-dev" />
-<remote name="clang"     fetch="https://gitlab.com/LeCmnGend/proton-clang"/>
+<remote name="clang"     
+
+fetch="https://gitlab.com/LeCmnGend/proton-clang"/>
 <remote name="dead"
          fetch="https://github.com/acex69" />
 <remote name="lineage"
          fetch="https://github.com/LineageOS" />
-<remote name="elixir"         fetch="https://github.com/ProjectElixir-Devices" />
+<remote name="elixir" 
+        fetch="https://github.com/ProjectElixir-Devices" />
         
   
         
