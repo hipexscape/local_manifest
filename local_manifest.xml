@@ -7,8 +7,7 @@
 <remote name="dev"
         fetch="https://github.com/mt6768-dev" />
 <remote name="clang"     
-
-fetch="https://gitlab.com/LeCmnGend/proton-clang"/>
+        fetch="https://gitlab.com/LeCmnGend/proton-clang" />
 <remote name="dead"
          fetch="https://github.com/acex69" />
 <remote name="lineage"
