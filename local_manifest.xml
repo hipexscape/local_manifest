@@ -33,9 +33,6 @@
         
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang.git" remote="clang" revision="clang-16" clone-depth="1" />
-
-  <!--MtkFMRadio -->
-  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/>
   
   <!-- Sepolicy -->
   <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
