@@ -7,17 +7,18 @@
 <remote name="dev"
         fetch="https://github.com/mt6768-dev" />
 <remote name="clang"  
-        fetch="https://gitlab.com/LeCmnGend"/>
+        fetch="https://gitlab.com/ImSurajxD"/>
 <remote name="dead"
          fetch="https://github.com/acex88" />
 <remote name="lineage"
          fetch="https://github.com/LineageOS" />
-       
+ <remote name="lab"
+          fetch="https://gitlab.com" />      
   <!-- Device Trees -->
   <project path="device/xiaomi/lancelot" name="device_xiaomi_lancelot.git" remote="dead" revision="main" clone-depth="1" />
    
   <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="dead" revision="test" clone-depth="1" />
+  <project path="device/xiaomi/mt6768-common" name="MT6768Lab/CommonDeviceTree.git" remote="lab" revision="13" clone-depth="1" />
   
   <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="kernel_mt6768-zepr.git" remote="dead" revision="main" clone-depth="1" />
@@ -32,7 +33,7 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek-1.git" remote="dead" revision="main" clone-depth="1" />
         
   <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang.git" remote="clang" revision="clang-16" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
   
   <!-- Sepolicy -->
   <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
