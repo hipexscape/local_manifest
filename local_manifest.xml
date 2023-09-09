@@ -15,7 +15,7 @@
  <remote name="lab"
           fetch="https://gitlab.com" />      
   <!-- Device Trees -->
-  <project path="device/xiaomi/lancelot" name="device_xiaomi_lancelot.git" remote="dead" revision="main" clone-depth="1" />
+  <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot.git" remote="dead" revision="lineage-20" clone-depth="1" />
    
   <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="ProjectElixir-Devices/device_xiaomi_mt6768-common.git" remote="hub" revision="13" clone-depth="1" />
@@ -36,7 +36,6 @@
  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang.git" remote="clang" revision="clang-16" clone-depth="1" />
   
   <!-- Sepolicy -->
-  <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="dev" revision="lineage-20" clone-depth="1" />
 
 
