@@ -39,5 +39,12 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="dev" revision="lineage-20" clone-depth="1" />
 
 
+  <!-- Remove -->
+  <remove-project name="crdroidandroid/android_frameworks_av" />
+  <remove-project name="crdroidandroid/android_frameworks_native" />
+
+<project path="frameworks/av" name="crdroid_frameworks_av.git" remote="dead" revision="13.0" clone-depth="1" />
+
+<project path="frameworks/native" name="crdroid_frameworks_native" remote="dead" revision="13.0" clone-depth="1" />
 
   </manifest>
