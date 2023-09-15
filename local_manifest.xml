@@ -36,6 +36,9 @@
   <!-- Sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="dev" revision="lineage-20" clone-depth="1" />
 
+  <!-- Viper --> 
+  <project path="packages/apps/ViPER4AndroidFX" name="ViPER4AndroidFX.git" remote="dead" revision="13.0" clone-depth="1" />
+
 
   <!-- Remove -->
   <remove-project name="crdroidandroid/android_frameworks_av" />
