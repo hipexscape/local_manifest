@@ -13,21 +13,19 @@
 <remote name="lineage"
          fetch="https://github.com/LineageOS" />
  <remote name="lab"
-          fetch="https://gitlab.com" />      
+          fetch="https://gitlab.com" />  
+    
   <!-- Device Trees -->
   <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot.git" remote="dead" revision="lineage-20" clone-depth="1" />
    
   <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="ProjectElixir-Devices/device_xiaomi_mt6768-common.git" remote="hub" revision="13" clone-depth="1" />
+  <project path="device/xiaomi/mt6768-common" name="/crdroidandroid/android_device_xiaomi_mt6768-common.git" remote="hub" revision="13.0" clone-depth="1" />
   
   <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="raizeldumps/Kernel-Mi8745.git" remote="hub" revision="raizel" clone-depth="1" />
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot.git" remote="dev" revision="lineage-20" clone-depth="1" />
-  
-  <!-- Vendor Common Trees--> 
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="dev" revision="lineage-20" clone-depth="1" />
+  <project path="vendor/xiaomi" name="ProjectElixir-Devices/vendor_xiaomi_mt6768.git" remote="hub" revision="13.0" clone-depth="1" />
   
   <!-- Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek-1.git" remote="dead" revision="main" clone-depth="1" />
