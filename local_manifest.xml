@@ -43,9 +43,12 @@
   <!-- Remove -->
   <remove-project name="crdroidandroid/android_frameworks_av" />
   <remove-project name="crdroidandroid/android_frameworks_native" />
+  <remove-project name="crdroidandroid/android_frameworks_base" />
 
 <project path="frameworks/av" name="crdroid_frameworks_av.git" remote="dead" revision="13.0" clone-depth="1" />
 
 <project path="frameworks/native" name="crdroid_frameworks_native" remote="dead" revision="13.0" clone-depth="1" />
+
+<project path="frameworks/base" name=" Crdroid_android_frameworks_base" remote="dead" revision="13.0" clone-depth="1" />
 
   </manifest>
