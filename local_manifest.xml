@@ -22,7 +22,7 @@
   <project path="device/xiaomi/mt6768-common" name="crdroidandroid/android_device_xiaomi_mt6768-common.git" remote="hub" revision="13.0-test" clone-depth="1" />
   
   <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/mt6768" name="raizeldumps/Kernel-Mi8745.git" remote="hub" revision="raizel" clone-depth="1" />
+  <project path="kernel/xiaomi/mt6768" name="MT6768Lab/KernelTree.git" remote="lab" revision="13" clone-depth="1" />
 
   <!-- Vendor Trees -->
   <project path="vendor/xiaomi" name="ProjectElixir-Devices/vendor_xiaomi_mt6768.git" remote="hub" revision="13.0" clone-depth="1" />
@@ -38,14 +38,11 @@
 
   <!-- Viper --> 
   <project path="packages/apps/ViPER4AndroidFX" name="ViPER4AndroidFX.git" remote="dead" revision="13.0" clone-depth="1" />
-
+        
   <!-- Remove -->
   <remove-project name="crdroidandroid/android_frameworks_av" />
   <remove-project name="crdroidandroid/android_frameworks_native" />
-
-<project path="frameworks/av" name="crdroid_frameworks_av.git" remote="dead" revision="13.0" clone-depth="1" />
-
-<project path="frameworks/native" name="crdroid_frameworks_native" remote="dead" revision="13.0" clone-depth="1" />
-
+  <project path="frameworks/av" name="crdroid_frameworks_av.git" remote="dead" revision="13.0" clone-depth="1" />
+  <project path="frameworks/native" name="crdroid_frameworks_native" remote="dead" revision="13.0" clone-depth="1" />
 
   </manifest>
