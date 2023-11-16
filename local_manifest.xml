@@ -7,7 +7,7 @@
 <remote name="dev"
         fetch="https://github.com/mt6768-dev" />
 <remote name="clang"  
-        fetch="https://gitlab.com/LeCmnGend"/>
+        fetch="https://gitlab.com/ImSurajxD"/>
 <remote name="dead"
          fetch="https://github.com/acex88" />
 <remote name="lineage"
@@ -31,7 +31,7 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="dead" revision="14.0" clone-depth="1" />
         
   <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang.git" remote="clang" revision="clang-16" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
   
   <!-- Sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="dev" revision="lineage-20" clone-depth="1" />
