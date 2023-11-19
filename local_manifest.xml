@@ -28,7 +28,7 @@
   <project path="vendor/xiaomi" name=" SuperiorOS-Devices/https://github.com/SuperiorOS-Devices/vendor_xiaomi_mt6768-common.git" remote="hub" revision="fourteen" clone-depth="1" />
   
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="MyGO-Kernel/android_hardware_mediatek.git" remote="dead" revision="lineage-20" clone-depth="1" />
+  <project path="hardware/mediatek" name="MyGO-Kernel/android_hardware_mediatek.git" remote="hub" revision="lineage-20" clone-depth="1" />
         
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
