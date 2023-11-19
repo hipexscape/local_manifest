@@ -25,7 +25,7 @@
   <project path="kernel/xiaomi/mt6768" name="MT6768Lab/KernelTree.git" remote="lab" revision="13" clone-depth="1" />
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi" name=" SuperiorOS-Devices/https://github.com/SuperiorOS-Devices/vendor_xiaomi_mt6768-common.git" remote="hub" revision="fourteen" clone-depth="1" />
+  <project path="vendor/xiaomi" name="SuperiorOS-Devices/vendor_xiaomi_mt6768-common.git" remote="hub" revision="fourteen" clone-depth="1" />
   
   <!-- Hardware -->
   <project path="hardware/mediatek" name="MyGO-Kernel/android_hardware_mediatek.git" remote="hub" revision="lineage-20" clone-depth="1" />
