@@ -34,7 +34,7 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
   
   <!-- Sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="MyGO-Kernel/android_device_mediatek_sepolicy_vndr.git" remote="hub" revision="lineage-20" clone-depth="1" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr.git" remote="dead" revision="14.0" clone-depth="1" />
 
   <!-- Viper --> 
   <project path="packages/apps/ViPER4AndroidFX" name="ViPER4AndroidFX.git" remote="dead" revision="13.0" clone-depth="1" />
