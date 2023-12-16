@@ -25,7 +25,7 @@
   <project path="vendor/xiaomi" name="crdroidandroid/proprietary_vendor_xiaomi_mt6768.git" remote="hub" revision="14.0" clone-depth="1" />
   
   <!-- Hardware -->
-  <project path="hardware/mediatek" name="MyGO-Kernel/android_hardware_mediatek.git" remote="hub" revision="lineage-20" clone-depth="1" />
+  <project path="hardware/mediatek" name="DroidX-UI/hardware_mediatek.git" remote="hub" revision="14" clone-depth="1" />
         
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" />
