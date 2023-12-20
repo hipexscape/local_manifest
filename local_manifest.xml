@@ -22,7 +22,7 @@
   <project path="kernel/xiaomi/mt6768" name="MT6768Lab/KernelTree.git" remote="lab" revision="13" clone-depth="1" />
 
   <!-- Vendor Trees -->
-  <project path="vendor/xiaomi" name="crdroidandroid/proprietary_vendor_xiaomi_mt6768.git" remote="hub"   />
+  <project path="vendor/xiaomi" name="crdroidandroid/proprietary_vendor_xiaomi_mt6768.git" remote="hub" revision="14.0"  />
   
   <!-- Hardware -->
   <project path="hardware/mediatek" name="DroidX-UI/hardware_mediatek.git" remote="hub" revision="14"  />
