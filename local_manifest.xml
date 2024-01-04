@@ -31,6 +31,6 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master"  />
   
   <!-- Sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="DroidX-UI/device_mediatek_sepolicy_vndr.git" remote="hub" revision="14"  />
+  <project path="device/mediatek/sepolicy_vndr" name="SuperiorOS/android_device_mediatek_sepolicy_vndr.git" remote="hub" revision="fourteen"  />
   
   </manifest>
