@@ -21,8 +21,9 @@
   <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="MT6768Lab/KernelTree.git" remote="lab" revision="13" clone-depth="1" />
 
-  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi" name="crdroidandroid/proprietary_vendor_xiaomi_mt6768.git" remote="hub" revision="14.0"  />
+  <!-- Vendor Tree -->
+  <project path="vendor/xiaomi/mt6768-common" name="crdroidandroid/proprietary_vendor_xiaomi_mt6768-common.git" remote="hub" revision="14.0"  />
+<project path="vendor/xiaomi/lancelot" name="crdroidandroid/proprietary_vendor_xiaomi_lancelot.git" remote="hub" revision="14.0"  />
   
   <!-- Hardware -->
   <project path="hardware/mediatek" name="DroidX-UI/hardware_mediatek.git" remote="hub" revision="14"  />
@@ -31,6 +32,6 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master"  />
   
   <!-- Sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="SuperiorOS/android_device_mediatek_sepolicy_vndr.git" remote="hub" revision="fourteen"  />
+  <project path="device/mediatek/sepolicy_vndr" name="DroidX-UI/device_mediatek_sepolicy_vndr.git" remote="hub" revision="14"  />
   
   </manifest>
