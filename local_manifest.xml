@@ -10,7 +10,8 @@
          fetch="https://github.com/acex88" />
 <remote name="dxui"
          fetch="https://github.com/DroidX-UI-Devices" />
-   
+ <remote name="lab"
+          fetch="https://gitlab.com" />     
   <!-- Device Trees -->
   <project path="device/xiaomi/lancelot" name="device_xiaomi_lancelot.git" remote="dxui" revision="14.0"  />
         
