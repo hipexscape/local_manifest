@@ -4,8 +4,6 @@
 
 <remote name="hub"
         fetch="https://github.com" />
-<remote name="clang"  
-        fetch="https://gitlab.com/ImSurajxD"/>
 <remote name="acex88"
          fetch="https://github.com/acex88" />
 <remote name="dxui"
