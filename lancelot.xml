@@ -4,8 +4,8 @@
 
 <remote name="hub"
         fetch="https://github.com" />
-<remote name="acex88"
-         fetch="https://github.com/acex88" />
+<remote name="hipex"
+         fetch="https://github.com/hipexscape" />
 <remote name="dxui"
          fetch="https://github.com/DroidX-UI-Devices" />
  <remote name="lab"
@@ -14,13 +14,13 @@
   <project path="device/xiaomi/lancelot" name="device_xiaomi_lancelot.git" remote="dxui" revision="14.0"  />
         
   <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="dxui" revision="14.0"  />
+  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="hipex" revision="14"  />
   
   <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="MT6768Lab/KernelTree.git" remote="lab" revision="13" />
 
   <!-- Vendor Tree -->
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="dxui" revision="14.0"  />
-<project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot.git" remote="dxui" revision="14.0"  />
+  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="hipex" revision="14"  />
+<project path="vendor/xiaomi/lancelot" name="mt6768-dev/proprietary_vendor_xiaomi_lancelot.git" remote="hub" revision="lineage-21"  />
   
   </manifest>
