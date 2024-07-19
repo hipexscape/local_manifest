@@ -21,6 +21,6 @@
 
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="hipex" revision="14"  />
-<project path="vendor/xiaomi/lancelot" name="mt6768-dev/proprietary_vendor_xiaomi_lancelot.git" remote="hub" revision="lineage-21"  />
+  <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot.git" remote="hipex" revision="14"  />
   
   </manifest>
