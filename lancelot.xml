@@ -22,5 +22,12 @@
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="hipex" revision="14"  />
   <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot.git" remote="hipex" revision="14"  />
-  
+
+  <!-- Hardware Trees -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hub" revision="lineage-21"  />
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="hub" revision="lineage-21"  />
+
+  <!-- Sepolicy Tree -->
+  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-21"  />
+        
   </manifest>
