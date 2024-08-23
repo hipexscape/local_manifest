@@ -14,7 +14,7 @@
   <project path="device/xiaomi/lancelot" name="device_xiaomi_lancelot.git" remote="hipex" revision="14.0"  />
         
   <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="hipex" revision="14"  />
+  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="hipex" revision="14-mtk-bt"  />
   
   <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="MT6768Lab/KernelTree.git" remote="lab" revision="14" />
