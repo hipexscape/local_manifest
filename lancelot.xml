@@ -6,8 +6,6 @@
         fetch="https://github.com" />
 <remote name="hipex"
          fetch="https://github.com/hipexscape" />
-<remote name="dxui"
-         fetch="https://github.com/DroidX-UI-Devices" />
  <remote name="lab"
           fetch="https://gitlab.com" />     
   <!-- Device Trees -->
