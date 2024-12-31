@@ -27,5 +27,9 @@
 
   <!-- Sepolicy Tree -->
   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-21"  />
+
+  <!-- Mediatek codec patches -->     
+  <remove-project name="android_frameworks_av" />
+  <project path="frameworks/av" name="hipexscape-stuff/frameworks_av" remote="hub" revision="15"  />
         
   </manifest>
