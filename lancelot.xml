@@ -9,7 +9,7 @@
  <remote name="lab"
           fetch="https://gitlab.com" />     
   <!-- Device Trees -->
-  <project path="device/xiaomi/lancelot" name="device_xiaomi_lancelot.git" remote="hipex" revision="15"  />
+  <project path="device/xiaomi/lancelot" name="device_xiaomi_lancelot.git" remote="hipex" revision="15-pixelage"  />
         
   <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common.git" remote="hipex" revision="15"  />
