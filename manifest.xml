@@ -29,8 +29,5 @@
 
   <!-- Sepolicy Tree -->
   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-20"  />
-
-  <!-- Face Unlock Service -->   
-   <project path="external/faceunlock" name=" DroidX-UI/external_faceunlock" remote="hub" revision="13"  />
-   <project path="packages/apps/FaceUnlockService" name=" DroidX-UI/packages_apps_FaceUnlockService" remote="hub" revision="13" />    
+    
   </manifest>
