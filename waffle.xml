@@ -2,36 +2,30 @@
 
 <manifest>
 
-   <!-- Remotes -->
-   <remote name="hub"
-        fetch="https://github.com" /> 
-   <remote name="hipex"
-         fetch="https://github.com/hipexscape" />
-   <remote name="lab"
-         fetch="https://gitlab.com" />     
-
-  <!-- Default revision for all projects -->
-  <default revision="16" remote="hub" sync-j="4" />
+  <!-- Remotes -->
+  <remote name="hub" fetch="https://github.com" /> 
+  <remote name="hipex" fetch="https://github.com/hipexscape" />
+  <remote name="lab" fetch="https://gitlab.com" />     
 
   <!-- Device Trees -->
-  <project path="device/xiaomi/waffle" name="yaap/device_oneplus_waffle.git" />
+  <project path="device/xiaomi/waffle" name="yaap/device_oneplus_waffle.git" remote="hub" revision="16" />
         
   <!-- Common Device Tree -->
-  <project path="device/oneplus/sm8650-common" name="yaap/device_oneplus_sm8650-common.git" />
+  <project path="device/oneplus/sm8650-common" name="yaap/device_oneplus_sm8650-common.git" remote="hub" revision="16" />
   
   <!-- Kernel Trees-->
-  <project path="kernel/oneplus/sm8650" name="yaap/kernel_oneplus_sm8650.git" />
-  <project path="kernel/oneplus/sm8650-modules" name="yaap/kernel_oneplus_sm8650-modules.git" />
-  <project path="kernel/oneplus/sm8650-devicetrees" name="yaap/kernel_oneplus_sm8650-devicetrees.git" />
+  <project path="kernel/oneplus/sm8650" name="yaap/kernel_oneplus_sm8650.git" remote="hub" revision="16" />
+  <project path="kernel/oneplus/sm8650-modules" name="yaap/kernel_oneplus_sm8650-modules.git" remote="hub" revision="16" />
+  <project path="kernel/oneplus/sm8650-devicetrees" name="yaap/kernel_oneplus_sm8650-devicetrees.git" remote="hub" revision="16" />
 
   <!-- Vendor Trees -->
-  <project path="vendor/oneplus/sm8650-common" name="yaap/proprietary_vendor_oneplus_sm8650-common.git" />
-  <project path="vendor/oneplus/waffle" name="yaap/proprietary_vendor_oneplus_waffle.git" />
+  <project path="vendor/oneplus/sm8650-common" name="yaap/proprietary_vendor_oneplus_sm8650-common.git" remote="hub" revision="16" />
+  <project path="vendor/oneplus/waffle" name="yaap/proprietary_vendor_oneplus_waffle.git" remote="hub" revision="16" />
 
   <!-- Hardware Tree -->
-  <project path="hardware/oplus" name="yaap/hardware_oplus" />
+  <project path="hardware/oplus" name="yaap/hardware_oplus" remote="hub" revision="16" />
 
   <!-- Extras -->
-  <project path="packages_apps_TouchGestures" name="yaap/packages_apps_TouchGestures" />  
+  <project path="packages_apps_TouchGestures" name="yaap/packages_apps_TouchGestures" remote="hub" revision="16" />  
 
-  </manifest>
+</manifest>
