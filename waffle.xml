@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
-
-  <!-- Remotes -->
-  <remote name="hub" fetch="https://github.com" /> 
-  <remote name="hipex" fetch="https://github.com/hipexscape" />
-  <remote name="lab" fetch="https://gitlab.com" />     
-
-  <!-- Device Trees -->
-  <project path="device/xiaomi/waffle" name="yaap/device_oneplus_waffle.git" remote="hub" revision="16" />
-        
-  <!-- Common Device Tree -->
-  <project path="device/oneplus/sm8650-common" name="yaap/device_oneplus_sm8650-common.git" remote="hub" revision="16" />
-  
-  <!-- Kernel Trees-->
-  <project path="kernel/oneplus/sm8650" name="yaap/kernel_oneplus_sm8650.git" remote="hub" revision="16" />
-  <project path="kernel/oneplus/sm8650-modules" name="yaap/kernel_oneplus_sm8650-modules.git" remote="hub" revision="16" />
-  <project path="kernel/oneplus/sm8650-devicetrees" name="yaap/kernel_oneplus_sm8650-devicetrees.git" remote="hub" revision="16" />
-
-  <!-- Vendor Trees -->
-  <project path="vendor/oneplus/sm8650-common" name="yaap/proprietary_vendor_oneplus_sm8650-common.git" remote="hub" revision="16" />
-  <project path="vendor/oneplus/waffle" name="yaap/proprietary_vendor_oneplus_waffle.git" remote="hub" revision="16" />
-
-  <!-- Hardware Tree -->
-  <project path="hardware/oplus" name="yaap/hardware_oplus" remote="hub" revision="16" />
-
-  <!-- Extras -->
-  <project path="packages_apps_TouchGestures" name="yaap/packages_apps_TouchGestures" remote="hub" revision="16" />  
-
+  <project path="device/oneplus/waffle" name="LineageOS/android_device_oneplus_waffle" revision="lineage-23.2" remote="github" />
+  <project path="device/oneplus/sm8650-common" name="LineageOS/android_device_oneplus_sm8650-common" revision="lineage-23.2" remote="github" />
+  <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" revision="lineage-23.2" remote="github" />>
+  <project path="kernel/oneplus/sm8650" name="LineageOS/android_kernel_oneplus_sm8650" revision="lineage-23.2" remote="github" />
+  <project path="kernel/oneplus/sm8650-devicetrees" name="LineageOS/android_kernel_oneplus_sm8650-devicetrees" revision="lineage-23.2" remote="github" />
+  <project path="kernel/oneplus/sm8650-modules" name="LineageOS/android_kernel_oneplus_sm8650-modules" revision="lineage-23.2" remote="github" />
+  <!-- Vendor trees -->
+  <project name="TheMuppets/proprietary_vendor_oneplus_waffle" path="vendor/oneplus/waffle" revision="lineage-23.2" remote="github" />
+  <project name="aosp-for-giulia/proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" revision="16.2" remote="github" />
 </manifest>
