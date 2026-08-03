@@ -8,5 +8,5 @@
   <project path="kernel/oneplus/sm8650-modules" name="LineageOS/android_kernel_oneplus_sm8650-modules" revision="lineage-23.2" remote="github" />
   <!-- Vendor trees -->
   <project name="TheMuppets/proprietary_vendor_oneplus_waffle" path="vendor/oneplus/waffle" revision="lineage-23.2" remote="github" />
-  <project name="aosp-for-giulia/proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" revision="16.2" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" revision="lineage-23.2" remote="github" />
 </manifest>
